@@ -1,0 +1,2 @@
+# Install from the repository root. Dependency versions are declared in pyproject.toml.
+-e .[notebooks,optimization,statistics]

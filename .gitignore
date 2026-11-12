@@ -1,0 +1,45 @@
+# Local environments and validation caches
+AI-CPET-OTS/
+.venv/
+.venv-preprocess/
+venv/
+.cache/
+.publication-baseline/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Private study inputs and generated participant-level results
+data/
+outputs/
+src/outputs/
+statistics/outputs/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.npy
+*.adicht
+*.npz
+*.png
+*.pdf
+
+# Deferred notebook and archived local experiments
+src/Pre-process-BBB-ECG.ipynb
+
+# Local diagrams, editor files, and temporary backups
+*.drawio
+*.bkp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+
+# Local test suite and validation notes
+/tests/
+/VALIDATION.md
